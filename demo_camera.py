@@ -3,9 +3,9 @@ import cv2
 import copy
 import numpy as np
 
-from src import util
-from src.body import Body
-from src.hand import Hand
+from openpose import util
+from openpose.body import Body
+from openpose.hand import Hand
 
 
 def _parse_args():
